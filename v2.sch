@@ -3123,7 +3123,7 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 </classes>
 <parts>
 <part name="MCU" library="MEINZEUG" deviceset="LPC1343_QFP" device="" value="LPC1343"/>
-<part name="VREG" library="MEINZEUG" deviceset="MCP180X" device="SOT-23-5" value="MCP1804"/>
+<part name="VREG" library="MEINZEUG" deviceset="MCP180X" device="SOT-23-5" value="MCP1801"/>
 <part name="Q1" library="MEINZEUG" deviceset="QUARTZ" device="ABM8G" value="12MHz"/>
 <part name="C1" library="MEINZEUG" deviceset="CAP_CERAMIC" device="0805_MICROMELF_COMBO" value="18p"/>
 <part name="C2" library="MEINZEUG" deviceset="CAP_CERAMIC" device="0805_MICROMELF_COMBO" value="18p"/>
