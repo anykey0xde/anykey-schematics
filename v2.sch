@@ -3219,7 +3219,7 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 <part name="R5" library="MEINZEUG" deviceset="R-EU_" device="0805_MICROMELF_COMBO" value="10K"/>
 <part name="U$8" library="MEINZEUG" deviceset="GND" device=""/>
 <part name="PGM" library="MEINZEUG" deviceset="HEADER-1X1" device="SMD_MEDIUM" value="PGM"/>
-<part name="LED1" library="MEINZEUG" deviceset="LED" device="0805" value=" "/>
+<part name="LED" library="MEINZEUG" deviceset="LED" device="0805" value=" "/>
 <part name="R6" library="MEINZEUG" deviceset="R-EU_" device="0805_MICROMELF_COMBO" value="100"/>
 <part name="U$6" library="MEINZEUG" deviceset="GND" device=""/>
 <part name="FLASH" library="MEINZEUG" deviceset="SERIALFLASH" device="SOIC8-150MIL"/>
@@ -3344,7 +3344,7 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 </instance>
 <instance part="U$8" gate="G$1" x="55.88" y="43.18"/>
 <instance part="PGM" gate="G$1" x="-106.68" y="55.88" rot="R180"/>
-<instance part="LED1" gate="G$1" x="-91.44" y="40.64" smashed="yes" rot="R90">
+<instance part="LED" gate="G$1" x="-91.44" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-93.218" y="42.926" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="-90.17" y="43.18" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
@@ -3496,7 +3496,7 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 <wire x1="-22.86" y1="96.52" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="CATHODE"/>
+<pinref part="LED" gate="G$1" pin="CATHODE"/>
 <wire x1="-93.98" y1="40.64" x2="-101.6" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="GND"/>
 <wire x1="-101.6" y1="40.64" x2="-101.6" y2="35.56" width="0.1524" layer="91"/>
@@ -3949,7 +3949,7 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="ANODE"/>
+<pinref part="LED" gate="G$1" pin="ANODE"/>
 <wire x1="-86.36" y1="40.64" x2="-88.9" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
