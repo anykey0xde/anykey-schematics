@@ -104,8 +104,6 @@
 <wire x1="-3.4" y1="-3.1" x2="-3.1" y2="-3.4" width="0.2032" layer="51"/>
 <wire x1="3.1" y1="-3.4" x2="3.4" y2="-3.1" width="0.2032" layer="51"/>
 <wire x1="3.4" y1="3.1" x2="3.1" y2="3.4" width="0.2032" layer="51"/>
-<circle x="-3.81" y="3.302" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.4" y="2.35" radius="0.2" width="0.4" layer="21"/>
 <smd name="1" x="-4.3" y="2.75" dx="1.5" dy="0.25" layer="1"/>
 <smd name="2" x="-4.3" y="2.25" dx="1.5" dy="0.25" layer="1"/>
 <smd name="3" x="-4.3" y="1.75" dx="1.5" dy="0.25" layer="1"/>
@@ -154,8 +152,8 @@
 <smd name="46" x="-1.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
 <smd name="47" x="-2.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
 <smd name="48" x="-2.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<text x="-2.974" y="5.3001" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.9261" y="-5.9379" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-2.974" y="5.3001" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.9261" y="-5.9379" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-4.4999" y1="2.5999" x2="-3.4501" y2="2.9001" layer="51"/>
 <rectangle x1="-4.4999" y1="2.0999" x2="-3.4501" y2="2.4001" layer="51"/>
 <rectangle x1="-4.4999" y1="1.5999" x2="-3.4501" y2="1.9001" layer="51"/>
@@ -204,6 +202,19 @@
 <rectangle x1="-1.9001" y1="3.4501" x2="-1.5999" y2="4.4999" layer="51"/>
 <rectangle x1="-2.4001" y1="3.4501" x2="-2.0999" y2="4.4999" layer="51"/>
 <rectangle x1="-2.9001" y1="3.4501" x2="-2.5999" y2="4.4999" layer="51"/>
+<wire x1="-3.81" y1="3.048" x2="-3.81" y2="3.429" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.429" x2="-3.429" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="3.81" x2="-3.048" y2="3.81" width="0.127" layer="21"/>
+<circle x="-2.794" y="2.794" radius="0.254" width="0.127" layer="21"/>
+<wire x1="3.048" y1="3.81" x2="3.429" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.429" y1="3.81" x2="3.81" y2="3.429" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.429" x2="3.81" y2="3.048" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.048" x2="-3.81" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.429" x2="-3.429" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="-3.81" x2="-3.048" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.048" y1="-3.81" x2="3.429" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.429" y1="-3.81" x2="3.81" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.429" x2="3.81" y2="-3.048" width="0.127" layer="21"/>
 </package>
 <package name="SOT-23-5">
 <smd name="1" x="-0.949959375" y="-1.397" dx="0.499871875" dy="1" layer="1"/>
@@ -1689,7 +1700,7 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <smd name="1" x="0" y="0" dx="7.62" dy="2.54" layer="1"/>
 </package>
 <package name="PCB_MEDIUM_RECT_PAD">
-<smd name="P$1" x="0" y="0" dx="2.54" dy="0.762" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="2.54" dy="0.889" layer="1" roundness="50"/>
 <text x="1.905" y="0" size="0.4064" layer="21" font="vector">&gt;VALUE</text>
 </package>
 <package name="ABM8G">
