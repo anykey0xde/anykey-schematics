@@ -1,7 +1,9 @@
 NOTICE
 ======
 
-... a quick word about renaming.
+This repository has moved.
+
+Please find it here [https://github.com/presseverykey/everykey-schematics](https://github.com/presseverykey/everykey-schematics)
 
 
 Just a quick notice to anyone potentially tracking these repositories: we've been informed that 
